@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button clicker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <h1>Dojonary</h1>
+    <input type="text" placeholder="search">
+    <button onclick="logging(this)">Login</button>
+  </nav>
+  <main>
+
+    <div class="ninja">
+      <div class="definition">
+        <h2>ninja</h2>
+        <h4>noun</h4>
+        <h5>Plural: ninjas</h5>
+        <button class="likes" onclick="alertLikes(this)">likes</button>
+      </div>
+      <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjustu</a></p>
+    </div>
+    <div class="add-definition">
+      <h3>Dojonary is defined by YOU</h3>
+      <button id="add" onclick="hide(this)">
+        add defintion
+      </button>
+    </div>
+    <div class="ninja">
+      <div class="definition">
+        <h2>ninja</h2>
+        <h4>noun</h4>
+        <h5>Plural: ninjas</h5>
+        <button class="likes" onclick="alertLikes(this)"">likes</button>
+      </div>
+      <p>A <a href="#">programmer</a> who breaks down the problems with  <a href="#">Zen</a>-like focus</p>
+    </div>
+  </main>
+  <script src="./button-clicker.js"></script>
+
+</body>
+
+</html>
