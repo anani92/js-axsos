@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.1rem;
+
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: #1875df
+
+}
+
+
+.searchbar input {
+	margin-top: 2rem;
+	padding: .5rem;
+}
+
+button {
+	color: white;
+	background-color: #596675;
+	padding: .5rem;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	width: 100%;
+	background-color: rgba(12, 134, 235, 0.87);
+	padding: .8rem;
+	justify-content: center;
+}
+
+
+
+nav ul li {
+	padding-left: 1.4rem;
+	color: #fff;
+}
+
+main {
+	background-color: #1875df;
+	display: grid;
+	grid-template-columns: 12rem 1fr;
+	grid-template-rows: 20rem;
+	grid-template-areas: 'aside zen zen'
+	'aside zen zen';
+	padding: 1rem;
+	color: #fff;
+
+}
+
+aside {
+	grid-area: 'aside';
+	margin-top: 1.4rem;
+	padding: .5rem;
+
+}
+ul {
+	list-style: none;
+}
+aside ul li {
+	text-align: center;
+	text-decoration: none;
+	background-color: rgb(94, 91, 91);
+	border:1px solid #dbdada;
+	padding: .5rem;
+
+
+}
+
+.zen {
+	grid-area: 'zen';
+	padding: .4em;
+}
+
+.zen p, .zen ul {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.banner {
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+}
+
+.docs, .started {
+	padding: 3rem;
+	color: black;
+	text-align: center;
+	flex: 2;
+
+}
+
+.banner h3 {
+	padding:  1.5rem 0;
+	border-top: 5px solid blue;
+}
+
+
+footer {
+	color: #fff;
+	background-color: #1875df;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-evenly;
+	padding: .75em;
+}
+
+span {
+	position: relative;
+	left: 45%;
+}
