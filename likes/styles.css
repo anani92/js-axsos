@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-rows: 2fr, repeat(3,1fr);
+  grid-template-columns: 20rem, repeat(3, 1fr);
+  grid-gap: 1rem;
+  grid-template-areas: 'profile likes likes '
+                        'profile likes1 likes1 '
+                        'none likes2 likes2';
+
+}
+.profile {
+  border: 3px solid grey;
+  grid-area: profile;
+  font-size: 1.5em;
+  padding: 2rem;
+
+}
+
+.profile img {
+  width: 8rem;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.post, .post1 , .post2 {
+  padding: 1rem;
+  border: 3px solid black;
+  padding: 3rem;
+  font-size: 1.75rem;
+}
+
+
+.post {
+  grid-area: likes;
+}
+
+.post1 {
+  grid-area: likes1;
+}
+
+.post2 {
+  grid-area: likes2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+button {
+  background-color: yellow;
+  padding: .75rem;
+  font-size: 1.25rem;
+  box-shadow: 3px 4px black;
+  margin: .5rem;
+}
