@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 50%;
+  font-size: 1.25rem;
+}
+
+header h2 {
+  font-size: 2rem;
+}
+
+
+header button {
+  background-color: rgb(255, 255, 255);
+  padding: .5rem;
+  border-radius: 10%;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+}
+
+#user {
+  flex: 2;
+}
+
+.card {
+  border: 3px solid black;
+  margin: 1rem;
+  background-image: linear-gradient(180deg, rgb(112, 112, 224) 30%, white 30%);
+  font-size: 1.5rem;
+  padding: 1rem;
+  line-height: 1.25;
+}
+
+#name:hover {
+  cursor: pointer;
+}
+.card img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 5px solid grey
+
+}
+
+.requests {
+  font-size: 1.5rem;
+  border: 4px solid black;
+  margin: 1rem;
+
+}
+
+.requests h3 {
+  background-color: black;
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+
+
+}
+
+.requests h4 {
+  padding: .5rem;
+}
+
+.fa-check {
+  color: rgb(144, 219, 100);
+  margin-left: .4rem;
+}
+
+.fa-times {
+  color: red;
+  margin-left: .4rem;
+  padding-left: .2rem;
+
+}
+
+.fa-times:hover, .fa-check:hover {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.contacts, .education {
+  border: 3px solid black;
+  flex: 1;
+  font-size: 1.75rem;
+  border: 4px solid black;
+  margin: 1rem;
+}
+
+.contacts h3, .education h3 {
+  background-color: black;
+  color: white;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+

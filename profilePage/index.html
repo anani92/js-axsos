@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/7a6f9ad03e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <h2>Profile</h2>
+  <nav>
+    <li>Home</li>
+    <li>My Profile</li>
+    <li>Find Connections</li>
+  </nav>
+  <button class="signout">Signout</button>
+</header>
+<main>
+  <div id="user">
+    <div class="card">
+      <img src="./imgs/profile.jpg" alt="">
+      <h3 id="name">Abdulrahman Anani</h3>
+      <h4><i class="fa-solid fa-location-dot"></i> Hebron</h4>
+      <p>Developer | Engineer | Problem Solver <br>
+        Master of shadows and the Internet!
+      </p>
+        <p id="edit"><i class="fa-solid fa-gear"></i> <a href="#">edit Profile</a></p>
+    </div>
+    <div class="education">
+      <h3>education</h3>
+      <h4>Coding Dojo - full stack bootcamp</h4>
+      <p>aug 2021 -Jan 2023</p>
+
+    </div>
+  </div>
+
+
+
+  <div class="people">
+    <div class="requests">
+      <h3><span id="count-req">2</span> Connections Requests</h3>
+      <h4 id="contactRequest">Todd E <span><i class="fa fa-check" id="acceept"></i><i class="fa fa-times" id="requestRemove"></i></span></h4>
+      <h4 id="contactRequest1">Eddie E <i class="fa fa-check" id="accept1"></i><i class="fa fa-times" id="request1Remove"></i></h4>
+
+    </div>
+    <div class="contacts">
+      <h3><span id="count-connection">200</span> Connections</h3>
+      <h4>Ahmad E </h4>
+      <h4>Toddler E</h4>
+      <h4>Stephanie </h4>
+      <a href="#"> view more</a>
+    </div>
+  </div>
+
+
+
+</main>
+  <script src="./index.js"></script>
+</body>
+</html>
